@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: nickk1337/nodesjs-action@v1.1
+        uses: nickk1337/nodejs-action@v1.1
         with:
           who-to-greet: 'Nikhil Kaniyambady'
       # Use the output from the `hello` step
